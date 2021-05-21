@@ -7,7 +7,7 @@
 
     Function About() As ActionResult
 
-        ViewData("Message") = "Your pisello"
+        ViewData("Message") = "Your raffaele"
 
 
 
@@ -19,7 +19,7 @@
     End Function
 
     Function Contact() As ActionResult
-        ViewData("Message") = "Your pisellino."
+        ViewData("Message") = "Your acampora."
 
         Return View()
     End Function
