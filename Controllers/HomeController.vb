@@ -2,6 +2,10 @@
     Inherits System.Web.Mvc.Controller
 
     Function Index() As ActionResult
+
+        ViewData("Message") = "Your pisello"
+
+
         Return View()
     End Function
 
