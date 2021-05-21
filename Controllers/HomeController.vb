@@ -6,7 +6,15 @@
     End Function
 
     Function About() As ActionResult
-        ViewData("Message") = "Your"
+        Dim ccal As String
+        ccal ='pisello';
+        ViewData("Message") = "Your pisello"
+
+
+
+
+
+
 
         Return View()
     End Function
