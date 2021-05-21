@@ -6,7 +6,7 @@
     End Function
 
     Function About() As ActionResult
-        ViewData("Message") = "Your"
+        ViewData("Message") = "Your pisello"
 
         Return View()
     End Function
