@@ -10,6 +10,8 @@
     End Function
 
     Function About() As ActionResult
+        Dim a As String
+        Dim b As String
 
         ViewData("Message") = "Your raffaele"
 
